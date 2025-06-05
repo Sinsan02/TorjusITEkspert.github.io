@@ -1,0 +1,161 @@
+
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  a {
+    color: #1b1b32;
+    font-family: 'times new roman', serif;
+    display: inline-block;
+    text-shadow: #0a0a23 -1px -1px 0px #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .forside {
+    font-size: 30px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center; 
+  }
+
+  .om {
+    font-size: 30px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center; 
+  }
+  
+  .Project {
+      font-size: 30px;
+      margin: 0 auto;
+      width: 100%;
+      display: inline-block;
+      text-align: center; 
+    }
+
+  
+  .kontakt {
+    font-size: 30px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center; 
+  }
+  .Registrering{
+    font-size: 30px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center; 
+  }
+
+  .block {
+    background: linear-gradient(#0a0a23, #ec8611, #0a0a23);
+    width: 195px;
+    height: 50px;
+    margin-left: 70px;
+    margin-bottom: 80px;
+    display: inline-block;
+    text-align: center; 
+  }
+  
+  .Navigator {
+    text-align: center;
+  }
+  body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+      width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    }
+    h2 {
+      color: #ff4500;
+    }
+    .email-button {
+      background-color: #ff69b4;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      font-size: 20px;
+      border-radius: 15px;
+      cursor: pointer;
+      box-shadow: 2px 2px 10px #888;
+      transition: transform 0.2s;
+    }
+    .email-button:hover {
+      transform: scale(1.1) rotate(-2deg);
+      background-color: #ff1493;
+    }
+    .emoji {
+      font-size: 40px;
+    }

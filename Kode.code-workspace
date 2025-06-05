@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Kode",
+			"path": "."
+		},
+		{
+			"name": "Stein Saks Papir",
+			"path": "../Stein Saks Papir"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Stein Saks Papir"
+	}
+}

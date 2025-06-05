@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registrering.css" />
+  </head>
+  <body>
+    <h1>Torjus IT Ekspert.no</h1>
+    <nav>
+      <ul class="Navigator">
+          <div class="block"><a class="forside" href="forside.html">Hjem</a></div>
+          <div class="block"><a class="om" href="om.html">Om Torjus</a></div>
+          <div class="block"><a class="Project" href="Project.html">Projecter</a></div>
+          <div class="block"><a class="kontakt" href="kontakt.html">Kontakt Torjus</a></div>
+          <div class="block"><a class="Registrering" href="Registrering.html">Registrer Deg</a></div>
+      </ul>
+  </nav>   
+    <p class="big-font">Registrer Deg I Dag</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Fornavn (Dodraugen?): <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Etternavn: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Lag Nytt Passord: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Bruker type (Nødvendig)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personlig</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Opplast et profil bilde: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Alder: <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">Hvordan hørte du om Torjus?
+          <select id="referrer" name="referrer" class="referrer">
+            <option value="">(Velg En)</option>
+            <option value="1">Tojus Redder Verden Tv Serie</option>
+            <option value="2">TorjusItEkspert YouTube kannal</option>
+            <option value="3">Torjus Prater med deg en sen sommer kveld Forumet</option>
+            <option value="4">Annet</option>
+          </select>
+        </label>
+        <label for="bio">Lag en bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Jei like Torjuice veldig gott -En Steven 2025"></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> Jeg Aksepterer <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
